@@ -101,7 +101,6 @@ section {
 
 .home p {
     text-align: left;
-
 }
 
 span {
@@ -177,7 +176,7 @@ span {
 p {
     font-family: "Noto Serif", serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 2rem;
     gap: 2px;
 }
 
@@ -221,7 +220,7 @@ p {
 .btn:hover {
     box-shadow: none;
     border: .3rem solid var(--text-color);
-
+    
 }
 
 .about {
@@ -364,8 +363,8 @@ p {
 }
 
 .portfolio-layer h4 {
-    color: rgb(255, 247, 0);
-
+    color:rgb(255, 247, 0);
+    
     font-size: 2.2rem;
     text-wrap: nowrap;
 
@@ -558,11 +557,6 @@ html {
         display: block;
     }
 
-    #read-more-btn {
-        display: block;
-        margin: 2rem auto;
-    }
-
     .navbar {
         position: absolute;
         top: 100%;
@@ -631,15 +625,6 @@ html {
         text-align: center;
         margin-bottom: 2rem;
     }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-text {
-        margin-bottom: 1rem;
-    }
 }
 
 @media (max-width: 617px) {
@@ -678,40 +663,24 @@ html {
         font-size: 1.5rem;
     }
 
-    .home-content {
-        text-align: center;
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
     }
 
     .home-img img {
-        margin: 2rem auto;
+        width: 90vw;
     }
-}
 
-.home-content h1 {
-    font-size: 2.8rem;
-}
+    .about-img img {
+        width: 100%;
+    }
 
-.home-content h3 {
-    font-size: 2rem;
-}
-
-.home-img img {
-    width: 90vw;
-}
-
-.about-content h2 {
-    font-size: 2.4rem;
-}
-
-.about-img img {
-    width: 100%;
-}
-
-.portfolio-container {
-    grid-template-columns: 1fr;
-}
-
-.contact form .input-box input {
-    width: 100%;
-    font-size: 1.4rem;
+    .contact form .input-box input {
+        width: 100%;
+        font-size: 1.4rem;
+    }
 }
