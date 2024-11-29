@@ -33,6 +33,21 @@ body {
     background: var(--snd-bf-color);
     color: var(--text-color);
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.home-content {
+    position: relative;
+    left: 0; /* Adjust or remove this */
+    margin-left: 0;
+    padding: 0 1rem; /* Optional adjustment for mobile */
+}
+
+section {
+    padding: 10rem 5%; /* Ensure padding does not add to overflow */
+}
 
 section {
     min-height: 100vh;
@@ -699,14 +714,4 @@ html {
         width: 100%;
         font-size: 1.4rem;
     }
-   
-}
-@media (max-width: 188px){
-    .header i {
-        text-align: left;
-        transform: translateX(20px);
-    }
-.about-content{
-left: -1px;
-}
 }
