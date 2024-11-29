@@ -721,7 +721,8 @@ html {
         margin: 1rem 0; /* Spacing between menu items */
     }
      .home-content p{
-        text-align: center;
+            position: relative;
+    left: 25px;
     }
 }
 }
