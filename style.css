@@ -101,6 +101,7 @@ section {
 
 .home p {
     text-align: left;
+
 }
 
 span {
@@ -176,7 +177,7 @@ span {
 p {
     font-family: "Noto Serif", serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.6rem;
     gap: 2px;
 }
 
@@ -557,6 +558,11 @@ html {
         display: block;
     }
 
+    #read-more-btn {
+        display: block;
+        margin: 2rem auto;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -625,6 +631,15 @@ html {
         text-align: center;
         margin-bottom: 2rem;
     }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-text {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 617px) {
@@ -663,24 +678,40 @@ html {
         font-size: 1.5rem;
     }
 
-    .home-content h1 {
-        font-size: 3.5rem;
-    }
-
-    .home-content h3 {
-        font-size: 2rem;
+    .home-content {
+        text-align: center;
     }
 
     .home-img img {
-        width: 90vw;
+        margin: 2rem auto;
     }
+}
 
-    .about-img img {
-        width: 100%;
-    }
+.home-content h1 {
+    font-size: 2.8rem;
+}
 
-    .contact form .input-box input {
-        width: 100%;
-        font-size: 1.4rem;
-    }
+.home-content h3 {
+    font-size: 2rem;
+}
+
+.home-img img {
+    width: 90vw;
+}
+
+.about-content h2 {
+    font-size: 2.4rem;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.portfolio-container {
+    grid-template-columns: 1fr;
+}
+
+.contact form .input-box input {
+    width: 100%;
+    font-size: 1.4rem;
 }
