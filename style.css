@@ -652,17 +652,26 @@ html {
     html {
         font-size: 42.5%;
     }
-
-    .header {
+    .header i {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: right;
     }
-
+    .header i {
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+    }
+    .home-content{
+        margin-left: 20px;
+    }
     .navbar a {
         font-size: 1.5rem;
     }
-
+.home-content{
+    align-items: center;
+    text-align: left;
+}
     .home-content h1 {
         font-size: 3.5rem;
     }
