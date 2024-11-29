@@ -724,6 +724,18 @@ html {
             position: relative;
     left: 25px;
     }
+     .home-content h3{
+            position: relative;
+    left: 20px;
+    }
+     .home-content h1{
+            position: relative;
+    left: 20px;
+    }
+     .home-content span{
+            position: relative;
+    left: 20px;
+    }
     .about-content{
             position: relative;
     left: 25px;
