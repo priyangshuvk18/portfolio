@@ -720,9 +720,9 @@ html {
         font-size: 1.5rem;
         margin: 1rem 0; /* Spacing between menu items */
     }
-     .home-content{
+     .home-content p{
             position: relative;
-    left: 25px;
+    left: 20px;
     }
      .home-content h3{
             position: relative;
@@ -730,11 +730,11 @@ html {
     }
      .home-content h1{
             position: relative;
-    right: 25px;
+    right: 30px;
     }
      .home-content span{
             position: relative;
-    right: 30px;
+    right: 40px;
     }
     .about-content{
             position: relative;
