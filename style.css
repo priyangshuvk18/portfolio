@@ -27,6 +27,7 @@
 html {
     font-size: 75%;
     overflow-x: hidden;
+    overfloy-y: hidden;
 }
 
 body {
