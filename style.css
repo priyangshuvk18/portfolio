@@ -722,7 +722,7 @@ html {
     }
      .home-content p{
             position: relative;
-    left: 20px;
+    left: 30px;
     }
      .home-content h3{
             position: relative;
@@ -734,7 +734,7 @@ html {
     }
      .home-content span{
             position: relative;
-    right: 40px;
+    left: 40px;
     }
     .about-content{
             position: relative;
