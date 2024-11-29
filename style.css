@@ -720,4 +720,8 @@ html {
         font-size: 1.5rem;
         margin: 1rem 0; /* Spacing between menu items */
     }
+     .home-content p{
+        text-align: center;
+    }
+}
 }
