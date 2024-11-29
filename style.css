@@ -27,7 +27,6 @@
 html {
     font-size: 75%;
     overflow-x: hidden;
-    overfloy-y: hidden;
 }
 
 body {
@@ -700,4 +699,14 @@ html {
         width: 100%;
         font-size: 1.4rem;
     }
+   
+}
+@media (max-width: 188px){
+    .header i {
+        text-align: left;
+        transform: translateX(20px);
+    }
+.about-content{
+left: -1px;
+}
 }
