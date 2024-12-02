@@ -727,8 +727,8 @@ html {
     }
     .home-content p{
             position: relative;
-    left: 30px;
-    }
+    left: -30px;
+/*     }
      .home-content h3{
             position: relative;
     right: 30px;
@@ -745,5 +745,5 @@ html {
             position: relative;
     left: 30px;
     } 
-}
+} */
 }
