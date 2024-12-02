@@ -739,7 +739,7 @@ html {
     }
      .home-content span{
             position: relative;
-    right: 25px;
+    right: 40px;
     }
     .about-content{
             position: relative;
@@ -753,7 +753,7 @@ html {
                      position: relative;
     left: -30px;
 } 
-        .social-media a{
+        .social-media btn{
                      position: relative;
     left: -30px;
 } 
