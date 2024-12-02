@@ -717,7 +717,7 @@ html {
     }
 
     .navbar a {
-             text-align: right;
+             align-items: right;
         font-size: 1.5rem;
         margin: 1rem 0; /* Spacing between menu items */
     }
