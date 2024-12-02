@@ -749,6 +749,10 @@ html {
             position: relative;
     left: -30px;
    }
+     .about-content p{
+            position: relative;
+    left: -30px;
+   }
     .social-media{
                      position: relative;
     left: -33px;
@@ -761,4 +765,5 @@ html {
         position: relative;
         left: -33px;
     }
+    
 }
