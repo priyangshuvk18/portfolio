@@ -722,7 +722,7 @@ html {
     }
 
     .home-content{
-        align-items: left;
+/*         align-items: left; */
         left: 30px;
     }
     .home-content p{
@@ -745,5 +745,8 @@ html {
             position: relative;
     left: 30px;
     } 
-} */
+    .ssocial-media{
+              position: relative;
+    right: 30px;
+} 
 }
