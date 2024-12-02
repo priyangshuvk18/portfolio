@@ -745,6 +745,10 @@ html {
             position: relative;
     left: 30px;
     } 
+    .about-content p{
+            position: relative;
+    left: -30px;
+   }
     .ssocial-media{
               position: relative;
     right: 30px;
