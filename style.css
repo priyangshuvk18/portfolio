@@ -757,4 +757,8 @@ html {
                          position: relative;
     left: 33px;
 } 
+       .bc{
+        position: relative;
+        left: -33px;
+    }
 }
