@@ -742,26 +742,26 @@ html {
     right: 2px;
     }
     .about-content{
-            position: relative;
+    position: relative;
     left: 30px;
     } 
     .about-content p{
-            position: relative;
+    position: relative;
     left: -30px;
    }
-     .about-content p{
-            position: relative;
+     .about-content.button{
+    position: relative;
     left: -30px;
    }
     .social-media{
-                     position: relative;
+    position: relative;
     left: -33px;
 } 
-        .home-content btn{
-                         position: relative;
+    .home-content btn{
+    position: relative;
     left: 33px;
 } 
-       .bc{
+    .bc{
         position: relative;
         left: -33px;
     }
