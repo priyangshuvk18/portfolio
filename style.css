@@ -755,6 +755,6 @@ html {
 } 
         .home-content btn{
                          position: relative;
-    left: -33px;
+    left: 33px;
 } 
 }
