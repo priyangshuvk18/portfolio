@@ -725,7 +725,7 @@ html {
         align-items: left;
         left: 30px;
     }
-/*      .home-content p{
+    .home-content p{
             position: relative;
     left: 30px;
     }
@@ -744,6 +744,6 @@ html {
     .about-content{
             position: relative;
     left: 30px;
-    } */
+    } 
 }
 }
