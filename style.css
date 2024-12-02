@@ -722,7 +722,7 @@ html {
     }
 
     .home-content{
-/*         align-items: left; */
+     align-items: left; 
         left: 30px;
     }
     .home-content p{
